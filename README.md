@@ -22,7 +22,6 @@ npm install react-i18next i18next
         ├── en.json
     ├── App.css
     ├── App.js
-    ├── index.css
     ├── index.js
 ├── .gitignore
 ├── package.json
@@ -206,6 +205,8 @@ p {
 ## Melhoria 
 
 ```jsx
+// App.js
+
 import './i18n/i18n.jsx'
 import { useTranslation } from 'react-i18next';
 import './App.css';
@@ -250,3 +251,12 @@ function App() {
 
 export default App;
 ```
+
+
+### Repository and Demo
+
+**Demo**: https://i18n-internationalization-of-applications-wheat.vercel.app/
+
+**Git repository**: https://github.com/LearnWithFelipe/i18n-internationalization-of-applications
+
+**CodeSandbox**: https://codesandbox.io/s/i18n-internationalization-of-applications-txfxh6 
